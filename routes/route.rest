@@ -1,0 +1,16 @@
+GET http://localhost:3001/food-options/decision
+
+###
+
+POST http://localhost:3001/food-options
+Content-Type: application/json
+
+{ "name": "Kuan Kuan" }
+
+###
+
+GET http://localhost:3001/food-options/Kuan%20Kuan
+
+###
+
+DELETE http://localhost:3001/food-options/Kuan%20Kuan
